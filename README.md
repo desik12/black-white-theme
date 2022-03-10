@@ -1,16 +1,73 @@
-# TITULO
-<p> descripción </p>
+# Black White Theme
+<p> 3 Temas para páginas web | Oscuro | Claro | Multicolor </p>
 
-| Titulo 1        | Titulo 2           | Titulo 3  |
-| ------------- |:-------------:| -----:|
-| desc 1     | desc 1      | desc 1 |
-| desc 2     | desc 2      | desc 2 |
-| desc 3     | desc 3      | desc 3 |
+<h3> 💵 Demo  </h3>
 
-![foto]()
+[Black White](https://39539ut3igj.glitch.me)
 
-```código
-TÚ CÓDIGO
+<h3 align="center"> 💻 Código </h3>
+
+```html
+<!DOCTYPE html>
+<html>
+    
+    <body>
+        
+       
+         
+        <button class='blanco'>
+            Claro
+        </button> 
+        <button class='negro'>
+            Oscuro
+        </button>
+        <button class='multicolor'>
+            Multicolor
+        </button>
+        
+        
+    </body>
+</html>
+
+<script>
+        document.getElementsByTagName('button')[0].addEventListener('click', function(){
+                document.body.className='blanco';
+        });
+        document.getElementsByTagName('button')[2].addEventListener('click', function(){
+                document.body.className='multicolor';
+        });
+
+        document.getElementsByTagName('button')[1].addEventListener('click',function() {
+                document.body.className='negro';
+        })
+        </script>
+
+
+<style>
+    .blanco {
+        
+    color:black;
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+.negro {
+    color:rgb(255, 255, 255);
+    background-color: black;
+    font-family: 'Fredoka', sans-serif;
+}
+.multicolor {
+    color: aqua;
+    background-color: blueviolet;
+    font-family: 'Fredoka', sans-serif;
+}
+</style>
+
+<h1>
+    Hello World!
+</h1>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+    </style>
 ```
-
-<h1 align="center"> CENTRO </h1>
